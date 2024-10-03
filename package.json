@@ -1,7 +1,7 @@
 {
   "name": "checking-postmessage",
   "version": "0.1.0",
-  "homepage": "https://github.com/fillinmar/checkingPostmessage",
+  "homepage": "https://fillinmar.github.io/checkingPostmessage/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && shx cp build/index.html",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "rm -rf build && npm run build",
