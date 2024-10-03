@@ -1,3 +1,0 @@
-# checkingPostmessage
-
-проект для проверки 
