@@ -42,6 +42,13 @@ function App() {
     }));
 
   }
+  const simplePostMessage = () =>{
+    console.log('logs in simplePostMessage');
+    window.postMessage(JSON.stringify({
+      code: 'love',
+    }));
+
+  }
   return (
     <div className="App">
       <header className="App-header">
@@ -51,8 +58,9 @@ function App() {
         </p>
         <button onClick={clickPopup}> Open popup</button>
         <button onClick={objectAssign}> object Assign</button>
-        <button onClick={simpleWindowOpen}> object Assign</button>
+        <button onClick={simpleWindowOpen}> simpleWindowOpen</button>
         <button onClick={postMessage}> Post Message</button>
+        <button onClick={simplePostMessage}> simplePostMessage</button>
       </header>
     </div>
   );
