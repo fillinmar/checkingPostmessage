@@ -30,7 +30,7 @@ export class Popup {
 
 		this.popupWindow = window.open(
 			url,
-			'check', // на всякий случай
+			'_blank', // на всякий случай
 			`popup=1`,
 		);
 		this.attachListeners();
